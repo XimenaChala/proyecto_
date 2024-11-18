@@ -131,4 +131,4 @@ CREATE TABLE cursos (
 ## Mockup
 El diseño del modelado se enfoca en una interfaz gráfica e interactiva para gestionar estudiantes, profesores y cursos. Este diseño está orientado a facilitar la gestión académica sin necesidad de roles o inicios de sesión.
 
-![Home](Imagenes%20Layout/HomePage.png)
+![Home](Imagenes%20Layout/HomePage.png) 
