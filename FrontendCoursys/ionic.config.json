@@ -1,0 +1,7 @@
+{
+  "name": "FrontendCoursys",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
