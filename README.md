@@ -139,9 +139,7 @@ CREATE TABLE cursos (
 * Profesor: Atributos como id, nombre, especialidad, email.
 * Curso: Atributos como id, nombre, horas, precio,    fecha_inicio.
 
-Ver
-![Texto alternativo](![alt text](image.png))
-
+![diagrama](image.png)
 
 ### Relaciones:
 
@@ -150,4 +148,6 @@ Un Estudiante puede inscribirse en muchos Cursos.
 
 ## Mockup
 El diseño del modelado se enfoca en una interfaz gráfica e interactiva para gestionar estudiantes, profesores y cursos. Este diseño está orientado a facilitar la gestión académica sin necesidad de roles o inicios de sesión.
+
+![Home](ImagenesLayout/HomePage.png)
 
