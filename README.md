@@ -127,8 +127,27 @@ CREATE TABLE cursos (
 );
 
 ```
+## Relaciones entre Tablas
+* Estudiantes-Cursos: Cada curso puede tener múltiples   estudiantes, y cada estudiante puede inscribirse en varios cursos.
+
+* Profesores-Cursos: Un curso está asociado a un único profesor.
+
+### Clases principales:
+
+* Estudiante: Atributos como id, nombre, cedula, telefono, email.
+
+* Profesor: Atributos como id, nombre, especialidad, email.
+* Curso: Atributos como id, nombre, horas, precio,    fecha_inicio.
+
+Ver
+![Texto alternativo](![alt text](image.png))
+
+
+### Relaciones:
+
+Un Curso tiene un Profesor y muchos Estudiantes.
+Un Estudiante puede inscribirse en muchos Cursos.
 
 ## Mockup
 El diseño del modelado se enfoca en una interfaz gráfica e interactiva para gestionar estudiantes, profesores y cursos. Este diseño está orientado a facilitar la gestión académica sin necesidad de roles o inicios de sesión.
 
-![Home](Imagenes%20Layout/HomePage.png) 

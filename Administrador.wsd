@@ -1,0 +1,45 @@
+@startuml Estudiante
+
+' Definición de la clase Estudiante
+class Estudiante {
+    - id: int
+    - nombre: String
+    - cedula: String
+    - telefono: float
+    - email: String
+    + registrar(): void
+    + actualizar(): void
+    + eliminar(): void
+    + consultar(): void
+}
+
+' Definición de la clase Profesor
+class Profesor {
+    - id: int
+    - nombre: String
+    - especialidad: String
+    - email: String
+    + registrar(): void
+    + actualizar(): void
+    + eliminar(): void
+    + consultar(): void
+}
+
+' Definición de la clase Curso
+class Curso {
+    - id: int
+    - nombre: String
+    - horas: float
+    - precio: float
+    - fecha_inicio: Date
+    + crear(): void
+    + actualizar(): void
+    + eliminar(): void
+    + consultar(): void
+}
+
+' Relaciones entre clases
+Estudiante "1" -- "0..*" Curso : Inscripción
+Profesor "1" -- "0..*" Curso : Asignación
+
+@enduml
